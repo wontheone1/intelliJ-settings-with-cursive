@@ -1,0 +1,71 @@
+<keymap version="1" name="Mac OS X with emacs style Cursive keys" parent="Mac OS X">
+  <action id=":cursive.actions.paredit/backward">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id=":cursive.actions.paredit/backward-down">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id=":cursive.actions.paredit/backward-up">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id=":cursive.actions.paredit/copy-as-kill">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
+  <action id=":cursive.actions.paredit/forward-down">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id=":cursive.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
+  <action id=":cursive.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id=":cursive.actions.paredit/kill-sexp">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="meta alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl 9" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift ctrl 0" />
+  </action>
+  <action id=":cursive.actions.paredit/splice-killing-backwards">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id=":cursive.actions.paredit/splice-killing-forwards">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id=":cursive.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id=":cursive.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id=":cursive.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id=":cursive.repl.actions/sync-files">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id=":cursive.testing.actions/remove-test-markers">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="EditorMatchBrace" />
+  <action id="NewScratchFile" />
+  <action id="ToggleBookmark0" />
+  <action id="ToggleBookmark9" />
+</keymap>
